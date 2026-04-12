@@ -74,7 +74,7 @@ nav a {
 
 .hero-img img {
     width: 600px;
-    border-radius: 10px;
+
     mix-blend-mode: darken;
 }
 
@@ -192,7 +192,7 @@ footer {
 
         position: relative;
         top: 20px;
-        left: 65%;
+        left: 35%;
         padding: 5px 12px;
     }
 
@@ -210,7 +210,7 @@ footer {
    .hero-img img {
     width: 412px;
     height: 250px;
-    border-radius: 10px;
+    
     mix-blend-mode: darken;
     position: relative;
         right: 30px;
@@ -291,5 +291,10 @@ footer{
     text-decoration: none;
     position: relative;
     bottom: 5px;
+}
+
+.caixa-maior{
+    max-width: 90%;
+    align-items: center;
 }
 }
