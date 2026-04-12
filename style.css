@@ -156,6 +156,10 @@ footer {
 
 @media screen and (max-width:600px) {
 
+    *{
+        width: 100%;
+    }
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -163,6 +167,7 @@ footer {
         padding: 20px 10%;
         background: white;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 412px;
     }
 
     .logo {
@@ -192,14 +197,16 @@ footer {
 
         position: relative;
         top: 20px;
-        left: 35%;
+        left: 15%;
         padding: 5px 12px;
+
     }
 
     .hero {
         padding: 50px 30px;
         background: #f2eee9;
         display: block;
+                width: 412px;
 
     }
 
@@ -241,6 +248,7 @@ footer {
     font-size: 12px;
     position: relative;
         bottom: 70px;
+        
 }
 .servicos{
     text-align: center;
@@ -267,6 +275,7 @@ footer {
     position: relative;
     bottom: 150px;
     padding: 0;
+    width: 412px;
 }
 footer{
     
@@ -276,6 +285,7 @@ footer{
     position: relative;
     bottom: 150px;
     font-size: 12px;
+            width: 412px;
 }
 .footer{
     position: relative;
